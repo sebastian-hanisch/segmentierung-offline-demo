@@ -1,7 +1,6 @@
 # Brüche im Rückblick finden: die beste Zerlegung ist exakt, die Zahl der Brüche ist eine Wahl – Streamlit-Demo
 
-<!-- Nach dem Deploy direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-segmentierung-offline-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-segmentierung-offline-demo.streamlit.app/)**
 
 Stück 7 der Reihe **Änderungserkennung** („Wie schnell merkt man, dass sich etwas geändert hat?“) in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Die Stücke 1 bis 6 überwachen eine Reihe **online** und zählen die Lauflänge bis zum Alarm; dieses Stück schaut **im Rückblick** auf eine fertige Reihe und fragt, wo ihr Mittelwert springt. Die Kante zum Vorgänger ist ein `kontrast` des **Maßes** (kein `fix`): bei δ = 1 gibt es keine gemessene Schwäche der Online-Karte, die der Rückblick behebt (der CUSUM liefert die Lage selbst mit, ähnlich gut, Experiment 5); bei δ = 2 ist der Rückblick bei der Lage genauer (gleiche Läufe: Lagefehler 0,53 beim Rückblick gegen 1,56 online, Experiment 5); beide Seiten zahlen Unterschiedliches (online Verzögerung und Fehlalarme, offline die Strafwahl und die ganze Reihe). Plan 06 und Plan 08 nennen „online“ nicht als Schwäche, Plan 08 führt die Kante zu Stück 7 selbst als `kontrast`. Vehikel A: **ausgedachte** Normalreihen mit bekannter Streuung 1 (keine Betriebsdaten). Im Titel und in der App steht „Brüche (Änderungspunkte)“, weil „Segmentierung“ im Bestand auch Welch-Segmente und Mondrian-Klassen meint.
 
