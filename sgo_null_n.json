@@ -1,0 +1,200 @@
+{
+ "n2": {
+  "0.5": {
+   "beta": 0.34657359027997264,
+   "exakt": 0.5560591756569779,
+   "sim_formel": 0.5561995,
+   "runs_formel": 2000000,
+   "sim_dp": 0.555875,
+   "runs_dp": 200000,
+   "seed": 47901
+  },
+  "1.0": {
+   "beta": 0.6931471805599453,
+   "exakt": 0.4050959664330248,
+   "sim_formel": 0.4047945,
+   "runs_formel": 2000000,
+   "sim_dp": 0.405625,
+   "runs_dp": 200000,
+   "seed": 47901
+  },
+  "2.0": {
+   "beta": 1.3862943611198906,
+   "exakt": 0.239031891449512,
+   "sim_formel": 0.238952,
+   "runs_formel": 2000000,
+   "sim_dp": 0.239265,
+   "runs_dp": 200000,
+   "seed": 47901
+  },
+  "3.0": {
+   "beta": 2.0794415416798357,
+   "exakt": 0.14929478889480274,
+   "sim_formel": 0.1494955,
+   "runs_formel": 2000000,
+   "sim_dp": 0.14904,
+   "runs_dp": 200000,
+   "seed": 47901
+  }
+ },
+ "n3": {
+  "0.5": {
+   "beta": 0.5493061443340549,
+   "exakt_kein_bruch": 0.30400817802189517,
+   "sim_aufzaehlung": 0.304125,
+   "runs_aufzaehlung": 1000000,
+   "sim_dp": 0.304292,
+   "runs_dp": 1000000,
+   "seed_dp": 47902,
+   "seed_aufzaehlung": 47903
+  },
+  "1.0": {
+   "beta": 1.0986122886681098,
+   "exakt_kein_bruch": 0.5111090870304185,
+   "sim_aufzaehlung": 0.511319,
+   "runs_aufzaehlung": 1000000,
+   "sim_dp": 0.511548,
+   "runs_dp": 1000000,
+   "seed_dp": 47902,
+   "seed_aufzaehlung": 47903
+  },
+  "2.0": {
+   "beta": 2.1972245773362196,
+   "exakt_kein_bruch": 0.7529747740942696,
+   "sim_aufzaehlung": 0.753042,
+   "runs_aufzaehlung": 1000000,
+   "sim_dp": 0.753006,
+   "runs_dp": 1000000,
+   "seed_dp": 47902,
+   "seed_aufzaehlung": 47903
+  },
+  "3.0": {
+   "beta": 3.295836866004329,
+   "exakt_kein_bruch": 0.8719566414099713,
+   "sim_aufzaehlung": 0.871827,
+   "runs_aufzaehlung": 1000000,
+   "sim_dp": 0.871639,
+   "runs_dp": 1000000,
+   "seed_dp": 47902,
+   "seed_aufzaehlung": 47903
+  }
+ },
+ "n_reihe": {
+  "50": {
+   "seed": 47450,
+   "R": 1000,
+   "minlen": 5,
+   "n_stellen": 41,
+   "1.0": {
+    "p_fehlbruch": 0.462,
+    "feste_stelle": 0.04794185458721368,
+    "stellen_mal_einzel": 1.9656160380757608
+   },
+   "2.0": {
+    "p_fehlbruch": 0.063,
+    "feste_stelle": 0.005155565197804181,
+    "stellen_mal_einzel": 0.21137817310997142
+   },
+   "3.0": {
+    "p_fehlbruch": 0.013,
+    "feste_stelle": 0.0006130036338967504,
+    "stellen_mal_einzel": 0.025133148989766766
+   }
+  },
+  "100": {
+   "seed": 47500,
+   "R": 1000,
+   "minlen": 5,
+   "n_stellen": 91,
+   "1.0": {
+    "p_fehlbruch": 0.547,
+    "feste_stelle": 0.03187568930680292,
+    "stellen_mal_einzel": 2.900687726919066
+   },
+   "2.0": {
+    "p_fehlbruch": 0.042,
+    "feste_stelle": 0.00240651945882276,
+    "stellen_mal_einzel": 0.21899327075287114
+   },
+   "3.0": {
+    "p_fehlbruch": 0.003,
+    "feste_stelle": 0.0002016645187154008,
+    "stellen_mal_einzel": 0.01835147120310147
+   }
+  },
+  "200": {
+   "seed": 47600,
+   "R": 1000,
+   "minlen": 5,
+   "n_stellen": 191,
+   "1.0": {
+    "p_fehlbruch": 0.581,
+    "feste_stelle": 0.021346035327073385,
+    "stellen_mal_einzel": 4.077092747471016
+   },
+   "2.0": {
+    "p_fehlbruch": 0.041,
+    "feste_stelle": 0.001132936831005235,
+    "stellen_mal_einzel": 0.2163909347219999
+   },
+   "3.0": {
+    "p_fehlbruch": 0.004,
+    "feste_stelle": 6.695706339177537e-05,
+    "stellen_mal_einzel": 0.012788799107829095
+   }
+  },
+  "400": {
+   "seed": 47700,
+   "R": 1000,
+   "minlen": 5,
+   "n_stellen": 391,
+   "1.0": {
+    "p_fehlbruch": 0.613,
+    "feste_stelle": 0.014375262424643705,
+    "stellen_mal_einzel": 5.620727608035689
+   },
+   "2.0": {
+    "p_fehlbruch": 0.021,
+    "feste_stelle": 0.0005369012484783253,
+    "stellen_mal_einzel": 0.20992838815502518
+   },
+   "3.0": {
+    "p_fehlbruch": 0.001,
+    "feste_stelle": 2.238966098276816e-05,
+    "stellen_mal_einzel": 0.00875435744426235
+   }
+  },
+  "800": {
+   "seed": 47800,
+   "R": 1000,
+   "minlen": 5,
+   "n_stellen": 791,
+   "1.0": {
+    "p_fehlbruch": 0.706,
+    "feste_stelle": 0.009724870239572192,
+    "stellen_mal_einzel": 7.692372359501604
+   },
+   "2.0": {
+    "p_fehlbruch": 0.016,
+    "feste_stelle": 0.00025578724178474673,
+    "stellen_mal_einzel": 0.20232770825173466
+   },
+   "3.0": {
+    "p_fehlbruch": 0.0,
+    "feste_stelle": 7.529238527660526e-06,
+    "stellen_mal_einzel": 0.005955627675379476
+   }
+  }
+ },
+ "meta": {
+  "stand": "2026-11-19",
+  "quelle": "tools/sgo_make_fenster.py",
+  "python": "3.14.6",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "hinweis": "Simulation (gelb): Anteile mit Standardfehler bis 1,6 Prozentpunkte bei R = 1000; n = 2 und n = 3 exakt (grün). Zähleinheit Läufe.",
+  "R": 1000,
+  "minlen": 5,
+  "hinweis_n2_n3": "n = 2: Mindestlänge 1, Fehlbruch = (x1 - x2)^2 / 2 > beta; n = 3: Mindestlänge 1, P(kein Bruch) als Winkelintegral."
+ }
+}

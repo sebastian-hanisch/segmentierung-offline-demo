@@ -1,0 +1,375 @@
+{
+ "meta": {
+  "stand": "2026-11-19",
+  "quelle": "tools/sgo_make_verfahren.py",
+  "python": "3.14.6",
+  "numpy": "2.5.3",
+  "hinweis": "exakt (grün): n = 5 und ganzzahlige Reihen (Zufallsquelle der Demo); Simulation (gelb): n = 200. Zähleinheiten Instanzen, Läufe, Kostenauswertungen."
+ },
+ "n5_exakt": {
+  "1": {
+   "reihen": 1024,
+   "pelt_abw_beta1": 0,
+   "pelt_abw_beta2": 0,
+   "verzoegert_abw": 0,
+   "instanzen": 2048
+  },
+  "2": {
+   "reihen": 1024,
+   "pelt_abw_beta1": 40,
+   "pelt_abw_beta2": 14,
+   "verzoegert_abw": 0,
+   "instanzen": 2048
+  }
+ },
+ "zufall_exakt": {
+  "1": {
+   "instanzen": 1500,
+   "pelt_abw": 0,
+   "verzoegert_abw": 0,
+   "seed": 47702
+  },
+  "2": {
+   "instanzen": 1500,
+   "pelt_abw": 58,
+   "verzoegert_abw": 0,
+   "seed": 47703
+  },
+  "3": {
+   "instanzen": 1500,
+   "pelt_abw": 47,
+   "verzoegert_abw": 0,
+   "seed": 47704
+  },
+  "5": {
+   "instanzen": 1500,
+   "pelt_abw": 38,
+   "verzoegert_abw": 0,
+   "seed": 47706
+  }
+ },
+ "binseg_exakt": {
+  "instanzen": 3000,
+  "andere_bruchmenge": 508,
+  "zielwert_groesser": 480,
+  "zielwert_kleiner": 0,
+  "seed": 47840
+ },
+ "pelt_n200": {
+  "1": {
+   "minlen": 1,
+   "seeds": [
+    47810
+   ],
+   "instanzen": 1040,
+   "pelt_abw": 0,
+   "verzoegert_abw": 0,
+   "ev_dp": 20904000,
+   "ev_pelt": 7539482,
+   "ev_verzoegert": 7539482,
+   "verhaeltnis_pelt": 0.3606717374665136,
+   "verhaeltnis_verzoegert": 0.3606717374665136
+  },
+  "5": {
+   "minlen": 5,
+   "seeds": [
+    47811,
+    47812,
+    47813,
+    47814,
+    47815,
+    47816,
+    47817,
+    47818
+   ],
+   "instanzen": 8320,
+   "pelt_abw": 2,
+   "verzoegert_abw": 0,
+   "ev_dp": 154186240,
+   "ev_pelt": 58537363,
+   "ev_verzoegert": 62786726,
+   "verhaeltnis_pelt": 0.37965361241054973,
+   "verhaeltnis_verzoegert": 0.4072135490170848
+  },
+  "2": {
+   "minlen": 2,
+   "seeds": [
+    47820,
+    47821
+   ],
+   "instanzen": 2080,
+   "pelt_abw": 0,
+   "verzoegert_abw": 0,
+   "ev_dp": 40980160,
+   "ev_pelt": 14973262,
+   "ev_verzoegert": 15259303,
+   "verhaeltnis_pelt": 0.3653783196551697,
+   "verhaeltnis_verzoegert": 0.3723583070441892
+  }
+ },
+ "binseg_n200": {
+  "cells": {
+   "null|0.0": {
+    "seed": 4783000,
+    "R": 400,
+    "1.0": {
+     "andere": 0.45,
+     "schlechter": 0.45,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.005,
+     "schlechter": 0.005,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.0,
+     "schlechter": 0.0,
+     "besser": 0
+    }
+   },
+   "ein|1.0": {
+    "seed": 4783001,
+    "R": 400,
+    "1.0": {
+     "andere": 0.42,
+     "schlechter": 0.42,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.0175,
+     "schlechter": 0.0175,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.0,
+     "schlechter": 0.0,
+     "besser": 0
+    }
+   },
+   "ein|2.0": {
+    "seed": 4783002,
+    "R": 400,
+    "1.0": {
+     "andere": 0.3775,
+     "schlechter": 0.3775,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.01,
+     "schlechter": 0.01,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.0,
+     "schlechter": 0.0,
+     "besser": 0
+    }
+   },
+   "ein|3.0": {
+    "seed": 4783003,
+    "R": 400,
+    "1.0": {
+     "andere": 0.4475,
+     "schlechter": 0.4475,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.01,
+     "schlechter": 0.01,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.0,
+     "schlechter": 0.0,
+     "besser": 0
+    }
+   },
+   "treppe|1.0": {
+    "seed": 4783004,
+    "R": 400,
+    "1.0": {
+     "andere": 0.6025,
+     "schlechter": 0.6025,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.4225,
+     "schlechter": 0.4225,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.32,
+     "schlechter": 0.32,
+     "besser": 0
+    }
+   },
+   "treppe|2.0": {
+    "seed": 4783005,
+    "R": 400,
+    "1.0": {
+     "andere": 0.5125,
+     "schlechter": 0.5125,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.3825,
+     "schlechter": 0.3825,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.38,
+     "schlechter": 0.38,
+     "besser": 0
+    }
+   },
+   "treppe|3.0": {
+    "seed": 4783006,
+    "R": 400,
+    "1.0": {
+     "andere": 0.5,
+     "schlechter": 0.5,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.27,
+     "schlechter": 0.27,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.2675,
+     "schlechter": 0.2675,
+     "besser": 0
+    }
+   },
+   "puls|1.0": {
+    "seed": 4783007,
+    "R": 400,
+    "1.0": {
+     "andere": 0.7475,
+     "schlechter": 0.7475,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.7775,
+     "schlechter": 0.7775,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.35,
+     "schlechter": 0.35,
+     "besser": 0
+    }
+   },
+   "puls|2.0": {
+    "seed": 4783008,
+    "R": 400,
+    "1.0": {
+     "andere": 0.6625,
+     "schlechter": 0.6625,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.58,
+     "schlechter": 0.58,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.6075,
+     "schlechter": 0.6075,
+     "besser": 0
+    }
+   },
+   "puls|3.0": {
+    "seed": 4783009,
+    "R": 400,
+    "1.0": {
+     "andere": 0.535,
+     "schlechter": 0.535,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.4175,
+     "schlechter": 0.4175,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.4225,
+     "schlechter": 0.4225,
+     "besser": 0
+    }
+   },
+   "zickzack|1.0": {
+    "seed": 4783010,
+    "R": 400,
+    "1.0": {
+     "andere": 0.7325,
+     "schlechter": 0.7325,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.7175,
+     "schlechter": 0.7175,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.2175,
+     "schlechter": 0.2175,
+     "besser": 0
+    }
+   },
+   "zickzack|2.0": {
+    "seed": 4783011,
+    "R": 400,
+    "1.0": {
+     "andere": 0.655,
+     "schlechter": 0.655,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.58,
+     "schlechter": 0.58,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.575,
+     "schlechter": 0.575,
+     "besser": 0
+    }
+   },
+   "zickzack|3.0": {
+    "seed": 4783012,
+    "R": 400,
+    "1.0": {
+     "andere": 0.535,
+     "schlechter": 0.535,
+     "besser": 0
+    },
+    "2.0": {
+     "andere": 0.3825,
+     "schlechter": 0.3825,
+     "besser": 0
+    },
+    "4.0": {
+     "andere": 0.39,
+     "schlechter": 0.39,
+     "besser": 0
+    }
+   }
+  },
+  "gesamt": {
+   "laeufe_mal_strafen": 15600,
+   "andere": 6112,
+   "schlechter": 6112,
+   "besser": 0,
+   "anteil_andere": 0.39179487179487177,
+   "je_c": {
+    "1.0": 0.5521153846153846,
+    "2.0": 0.35173076923076924,
+    "4.0": 0.27153846153846156
+   }
+  },
+  "minlen": 5,
+  "n": 200
+ }
+}
